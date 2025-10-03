@@ -24,4 +24,4 @@ urlpatterns = [
     path("", include("shop_app.urls"))
 ]
 
-urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOTS)
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
